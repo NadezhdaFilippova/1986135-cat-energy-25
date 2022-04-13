@@ -1,8 +1,20 @@
 .main-header {
   padding: 10px 20px 17px;
+  display: flex;
+  flex-direction: column;
 }
 
-.main-header__logo {}
+.main-header__logo {
+  height: 38px;
+
+  @media (min-width: $tablet-width) {
+    height: 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 59px;
+  }
+}
 
 .main-header__nav {
   background-color: #ffffff;

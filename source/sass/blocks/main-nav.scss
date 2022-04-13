@@ -1,0 +1,18 @@
+.main-nav {}
+
+.main-nav__toggle {}
+
+.main-nav__wrapper {}
+
+.main-nav__list {
+  @include list-reset;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin: 0 auto;
+  }
+}
