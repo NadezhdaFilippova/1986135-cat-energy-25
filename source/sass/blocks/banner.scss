@@ -84,8 +84,6 @@
 }
 
 .banner__image {
-  margin-left: 20px;
-
   @media (min-width: $tablet-width) {
     position: absolute;
     bottom: 0;
@@ -96,7 +94,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 0;
     top: -80px;
     left: 485px;
     width: 552px;
